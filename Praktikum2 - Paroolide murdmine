@@ -1,0 +1,7 @@
+    Ülesanne 1: Murtud paroolid (2-, 3- ja 4-tähelised) kokku 6 tükki ja programmi kood, mida kasutasite 4-kohaliste parooli räside murdmiseks tekstilisel kujul (mitte ekraanivaade) - 1p
+    
+    Ülesanne 2: Esitage john'iga leitud vähemalt 3 eestikeelse sõnaraamatu abil leitud DES ja/või MD5 parooli. - 0.5p
+    
+    Ülesanne 3: Esitage OWASP ZAP abil leitud näidisveebilehelt andmeturve-praktikum2.jar enda matriklinumbrile vastav parool. - 2p
+   
+    Ülesanne 4: KeePass2 abil loodud paroolide andmebaas *.kdbx (mis vastab ülesande nõuetele). - 0.5p 
