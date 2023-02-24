@@ -1,6 +1,15 @@
     Ülesanne 1: Murtud paroolid (2-, 3- ja 4-tähelised) kokku 6 tükki ja programmi kood, mida kasutasite 4-kohaliste parooli räside murdmiseks tekstilisel kujul (mitte ekraanivaade) - 1p
-    
+    DES paroolid:
+aaYnY9JY1skVY   -   ut
+abpNtJ15XGZyU   -   ati
+XZkMWgaNMr552   -   hack
+    muud paroolid:
+$1$SoolSalt$6kodg6UCOHV2owr1QxUX60  -   hd
+$5$Andmeturve$aRN3yaCA0QP4tgVRUF6u8NxZS7o.OD2gAoSzj66wyS1   -   led
+$6$SomethingHere$L5zuxicIHC90jGVZ9xgoOjUw36DjduwH1nPGJ.uwcgLqCvhlGe6wWp55eojE9jAIXxDbcsmbAKLXuXg2AbKZo0 -   asdf
+
     Ülesanne 2: Esitage john'iga leitud vähemalt 3 eestikeelse sõnaraamatu abil leitud DES ja/või MD5 parooli. - 0.5p
+    
     
     Ülesanne 3: Esitage OWASP ZAP abil leitud näidisveebilehelt andmeturve-praktikum2.jar enda matriklinumbrile vastav parool. - 2p
    
