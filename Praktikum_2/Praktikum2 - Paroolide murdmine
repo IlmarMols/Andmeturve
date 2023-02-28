@@ -12,5 +12,6 @@ $6$SomethingHere$L5zuxicIHC90jGVZ9xgoOjUw36DjduwH1nPGJ.uwcgLqCvhlGe6wWp55eojE9jA
     
     
     Ülesanne 3: Esitage OWASP ZAP abil leitud näidisveebilehelt andmeturve-praktikum2.jar enda matriklinumbrile vastav parool. - 2p
+   ./ZAP_2_12_0_unix.sh
    
     Ülesanne 4: KeePass2 abil loodud paroolide andmebaas *.kdbx (mis vastab ülesande nõuetele). - 0.5p 
