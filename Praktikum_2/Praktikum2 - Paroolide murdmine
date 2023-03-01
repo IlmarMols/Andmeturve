@@ -12,6 +12,10 @@ $6$SomethingHere$L5zuxicIHC90jGVZ9xgoOjUw36DjduwH1nPGJ.uwcgLqCvhlGe6wWp55eojE9jA
     
     
     Ülesanne 3: Esitage OWASP ZAP abil leitud näidisveebilehelt andmeturve-praktikum2.jar enda matriklinumbrile vastav parool. - 2p
-   ./ZAP_2_12_0_unix.sh
+   Reflectedis, oli: word, username, user, temp, sword, success, submit, Password, password, passwor, pass, none, method, head, focus, body, again, action
+	NAD OLID KÕIK KASUTUD!!!
+
+	Parool oli Size Resp. Body-s väiksuselt teine
+	Matrikkli: B90152, parool on: sonyericsson
    
     Ülesanne 4: KeePass2 abil loodud paroolide andmebaas *.kdbx (mis vastab ülesande nõuetele). - 0.5p 
