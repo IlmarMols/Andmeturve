@@ -1,0 +1,24 @@
+  Arutlege e-valimiste turvalisuse üle vastates järgmistele küsimustele: 
+    
+    Kirjeldage võimalikult detailselt ja tehniliselt kuidas on tagatud hääle salajasus (kelle poolt sa hääletasid).
+Riigikogu valimise seaduse ja teiste seaduste muutmise seaduse põhjal peab: valimiste korraldaja andma valijale ettekirjutus enda hääle kaitseks ja salastatuseks.
+E valimis tehakse valijarakendusega, mida saab kasutada vaid siis, kui valija mobiil-ID või ID-kaardi sertifikaadid kehtivad ning PIN1- ja PIN2-koodid on käepärast/meeles.
+Valijarakendus salastab (krüpteerib) valija hääle avaliku võtmega selliselt, et hääle edastamisel ei ole võimalik näha, kelle poolt valija hääletab.  
+seda häält on võimalik dekrüpteeirda vaid võtmega, millele ligipääs on Vabariigi Valimiskomisjoni liikmetel, kui nad nende vahel ära jagatud võtit koos kasutavad. 
+Häälte avamiseks peab olema kohal üle poole Vabariigi Valimiskomisjoni liikmetest. Enne häälte avamist eemaldatakse häältest isikuandmed.
+
+Küsimusele, "kelle poolt ma hääletasin", ma vastust ei anna. 
+    
+    Oma antud häält on võimalik kontrollida nutiseadmes. Kuidas on tagatud, et nutiseadmega oma hääle kontrollimine ei avalikusta sinu häält?
+Esiteks on vaja oma hääle kontrollimiseks juurdepääsu seadmele, millega hääl tehti. Hääli saab kontrollida vaid 30 minutit peale nende andmise. Kontrollrakendus sulgub automaatselt 30 sekundi pärast selle avamist.
+    
+    Nutiseadmega ega Smart-ID'ga e-hääletamine ei ole võimalik. Kas vastav otsus on tehniline või poliitiline? Palun põhjenda enda vastust.
+Nutiseadmega hääletamise keelamise otsus on tehniline, kuna nende peal olev operatsioonisüsteem ei sobi kokku e-hääletamises kasutusel olevate rakendustega. On võimalik, et tulevikus saab sellega hääletada.
+Smart-ID'ga ei sa hääletada, kuna Smart-ID ei ole riigi poolt väljastatud isikut tõendav dokument, ehk põhjus on poliitiline.
+
+    Pärast e-valimiste tehnilise seletusega tutvumist milline on teie arvamus Kas e-hääletamine on ebaturvalisem, sama turvaline või turvalisem võrreldes valimiskasti juures paberhääletamisega? Palun põhjendage enda vastust ning tooge välja võimalikud ründekohad (probleemid turvalisusega), miks teie arvates üks või teine valimise vorm on turvalisem/ebaturvalisem.
+
+Praegu toimunud e-valimised on praeguse arusaamaga piisavalt turvalised. 
+Häälte andja poolel on vaja ID-kaarti või mobiil-ID, millega koos on vaja teada tolle isiku tähtsaid PIN koode(lihtsam on valimisjaoskonnas isikupettust teha), ning kasutada neid ennem kui omanik need kasutuks teeb.
+Häälte lugejate pool on turvaline, kuna on üsna ebatõenäoline, et nii suur kogus isikuid, kui on vaja häälte lugemisel kokku saada, hääli võltsima hakkaks, ilma, et me sellest teada ei saa.
+Tulevikus on väga võimalik(ma olen selles üsna kindel), et leitakse meie e-valimiste süsteemis mingi turvaauk, kuid hetkel on see sama ohutu kui tavalised valimised, ning tulevikus võetakse kasutusele veel turvvalisemad viisid hääletamiseks.
