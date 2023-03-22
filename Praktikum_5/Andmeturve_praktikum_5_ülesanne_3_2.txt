@@ -1,0 +1,5 @@
+Date - sellega saab üle kontrollida, kas sellel kellaajal saatja on tegelikult saatnud sulle kirja.
+dmarc=pass - mail sai läbi Domain-based Message Authentication, Reporting and Conformance'ist, ehk email on kuulutatud ühe autentimise protokolli poolt tõeseks.
+X-Mailer: telnet - vabatahtlik rida, mis on lisatud faili kliendi poolt, 
+kahtlane, kuna normaalselt keegi sulle käsurealt mingit kirja ei saada
+adalberg.ut.ee ja IPv6 aadress - selle järgi võib ju vaadata, kust sõnum saadeti(antud juhul tundub õigest kohast)

@@ -1,0 +1,3 @@
+SMS ei ole enkrüptitud, Signal on.
+Enamik SMS-ide saatjaid on NSA partnerid.
+Enamik Signali sõnumitest salvestatakse kohalikesse SQL serveritesse, SMS-ide saatjad üldiselt cloudi.

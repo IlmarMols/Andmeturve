@@ -1,0 +1,4 @@
+Mis asjade lekkimise vastu riiklikele jälgimisasutustele aitab TOR?
+Ajalugu - TOR kustutab kõik otsimis ajaloo info peale brauseri sulgemist(kui ei kasutata googlit).
+IP aadress on ära peidetud veebisaitide eest - raskem tuvastada, kes külastab.
+Eelmisest kahest järgnevalt, kuna veebisaitid ei saa tuvastada täpselt mida sa selle lehe külastamise kõrvalt teed, siis nad ei saa kasutada 3 osapoole küpsiseid sind veebilehelt veebilehele jälgimiseks.
