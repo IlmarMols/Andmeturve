@@ -1,0 +1,5 @@
+Kuna ülesannet 1. tegin kahes erinevas arvutis(üks kooli arvuti ja kooli sülearvuti), 
+siis juhtus niimoodi, et Wifi propertiest ei õnnestunud mul muuta... 
+ning Wiresharki's ei olnud võimalik pealt kuulata http://andmeturve-lab.appspot.com/ külastamist.
+
+teise arvutiga õnnestus ühendus luua(üks ühendatud kaabliga, teine wifiga), arpspoof käsk töötas.

@@ -1,0 +1,9 @@
+õnnestus luua ühendus host masina ja virtual machini vahel, 
+kasutades arpspoof -r -t 192.168.XX.YYY 192.168.XX.ZZZ käsku...
+
+seejärel logisin alberg.ut.ee pytty'st... ning siis logisin sealt välja...
+
+/home/ssh-mitm/log/ on tühi
+
+var/log/auth.log'is ma tulemust ei näinud.
+/root/ssh-mitm/log/ vaatasin ka läbi, kuid seal ka tulemust ei olnud.
