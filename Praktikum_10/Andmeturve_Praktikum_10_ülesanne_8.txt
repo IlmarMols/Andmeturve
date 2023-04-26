@@ -1,0 +1,17 @@
+1. Soome turva-expert Mikko Hypponen viiruste analüüsist
+a) Algsed viirused olid omamoodi väga nunnud(nagu viirus, mis paneb mao üle ekraani liikuma, või need mis tulid oma loojate isikuandmetega...)
+b) kui tehakse rünnak, siis enamasti ei tuvastata millisest kontinendilt see tuleb.
+
+2. Stuxnet
+a) USA rünnak Iraani vastu - usb ei olnud selle kohale viimiseks vaja - nad jagasid selle osad tükkideks, ning siis ta oli võimeline ründama oma sihtmärki mitmest eri suunast
+b) Ründajad teatsid seal olnud tehnikute jalanumbreid...
+
+3. Everything can be hacked
+a) "computer controlled blood pump" - ma loodan, et windowsi süsteem, mis sellega seotud oli oli ohutu.
+b) sa võid uuematesse autodesse vale info sisse häkkida(et sa sõidad 20-nega, kui sa tegelikult sõidad 60-nega), ning seal piduri sisse lülitada
+c) kui ei saa otse sissetrükitud sõnumit näha saab telefoni mõõdikuid kasutades oletada, mis asjale vajutati, ja selleläbi saada info selle kohta, mis sisse trükiti.
+
+4. Hire the hackers
+a) ideoloogiliselt motiveeritud häkkerite grupp... jah Anonomous kõlab hirmsalt... kuid nad on ka kergelt nunnud
+b) "röövitud info müümine on keeruline, kuna sa pead müüma kriminaalidele... Kui aga luua vahele organisatsioon, kes on usaldusväärne, siis selle eest on pätid nõus maksma."
+c) aspergi sündroomiga isikud on enamasit küberkriminaalid.
