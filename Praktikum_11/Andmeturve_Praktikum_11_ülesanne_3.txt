@@ -1,0 +1,63 @@
+1. Millised 3 uut rünnakut teeb IPv6 tehnoloogia võimalikuks võrreldes "IPv4 only" võrguga? (0.3p)
+a) "Denial of Service (DoS)" rünnak: IPv6 aadressiruum on suurem kui IPv4-l, 
+mis tähendab, et DoS rünnakute läbiviimine on IPv6 võrgus lihtsam. 
+Ründaja võib genereerida suures koguses pakette, mille eesmärk on ülekoormata võrguressurssid, 
+et takistada seadmete juurdepääsu võrgule(kuna kulub rohkem aega, et üks aadress läbi vaadata).
+b) Neighbor Discovery Protocol (NDP) Spoofing: 
+IPv6 puhul kasutatakse naabrite avastamisprotokolli (NDP) teiste võrgus olevate seadmete leidmiseks ja 
+võrguaadresside lingikihi aadresside kasutamiseks.
+Ründajad saavad NDP-sõnumeid võltsida, et suunata liiklust pahatahtlikule sõlmele, sooritada teenuse keelamise (DoS) ründeid või 
+liiklust pealt kuulata ja muuta.
+c) "Address Spoofing(Aadressi võltsimine)": IPv6 võimaldab IP-aadresse automaatselt konfigureerida, 
+mida saab ära kasutada Address Spoofing'u rünnakute jaoks. 
+IPv6 puhul saab seade genereerida oma MAC-aadressi põhjal kordumatu lingi-kohaliku aadressi ja ründaja saab võltsida lähteaadressi, 
+et mööduda turvameetmetest, mis põhinevad IP-aadressi kontrollimisel.
+
+
+2. IPv6 ei kasuta ARP tehnoloogiat IP-aadresside jagamiseks, seega ei saa teha ka ARP spoof rünnet (praktikum9). 
+Mis nime kannab teie arvates ARP spoofile sarnane rünne IPv6 aadressiruumis? 
+põhjenda paari lausega (lisa viide millisele veebilehele/videole pärineb sinu vastus). (0.2p)
+Vastus: 
+"Neighbor Advertisement Spoofing" - mis toimub siis, kui ründaja saadab võrgus vale Neighbor Advertisement (NA) sõnumi, et sundida teisi arvuteid suunama liiklust ründaja arvutisse
+, mille abil võidakse läbi viia näiteks andmete varastamist või manipuleerimist.
+allikad:
+https://packetlife.net/blog/2009/feb/2/ipv6-neighbor-spoofing/
+Selle teine vorm oleks DNS Takeover.
+https://redfoxsec.com/blog/ipv6-dns-takeover/
+
+3. Linux ja MacOS tulevad vaikimisi "avatud" või mitteaktiivse tulemüüriga võrreldes Microsoft Windows'iga, 
+kus tulemüür on vaikimisi seadistatud "sissetulevatele ühendustele" (Enabled on incoming traffing). 
+Leidke Internetist põhjendus ja kirjutage enda sõnadega paari lausega eesti keeles: 
+Miks Linux ja MacOS on otsustanud vaikimisi tulemüüri mitte aktiviseerida sissetulevatele ühendustele võrreldes Windowsiga, 
+kus tulemüür on vaikimisi aktiivne sissetulevatele ühendustele? (0.2p)
+Vastus:
+https://kcm.trellix.com/corporate/index?page=content&id=KB85005
+https://www.makeuseof.com/tag/linux-antivirus-firewall/
+Linuxi ja MacOS-i otsus mitteaktiivne tulemüür vaikimisi lubada on seotud nende operatsioonisüsteemide laialdase kasutamisega serverite 
+ja võrguseadmete haldamisel, kus administraatoritel on vaja rohkem kontrolli võrguliikluse üle. 
+Samuti on nende süsteemide filosoofia "vaikimisi vähem privileege", 
+mis tähendab, et kasutajatel on vähem eelnevalt seadistatud piiranguid ja nad peavad ise otsustama, 
+milliseid teenuseid nad soovivad aktiveerida ja millistest turvameetmetest nad kinni peavad. 
+
+
+4. Koostage IPv6 tulemüüri seadistamise skript, mis lubab kõik ühendused kohalikust masinast, 
+vastus paketid (ESTABLISHED, RELATED) ja ühendused veebiserverile ligipääsuks (pordid 80 ja 443). 
+Kõik ülejäänud sissetulevad ühendused keelake DROP. Väljuvaid ühendusi pole vaja filtreerida. (0.3p) 
+
+#!/bin/bash
+ip6tables -F
+ip6tables -X
+ip6tables -P INPUT DROP
+
+# Lubame kõik ühendused kohalikust masinast
+ip6tables -A INPUT -i lo -j ACCEPT
+
+# Lubame vastus paketid
+ip6tables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+
+# Lubame ühendused veebiserverile (pordid 80 ja 443)
+ip6tables -A INPUT -p tcp --dport 80 -j ACCEPT
+ip6tables -A INPUT -p tcp --dport 443 -j ACCEPT
+
+# Keelame kõik muud sissetulevad ühendused
+ip6tables -A INPUT -j DROP
